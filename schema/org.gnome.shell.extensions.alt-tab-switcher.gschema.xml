@@ -1,1 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.alt-tab-switcher" path="/org/gnome/shell/extensions/alt-tab-switcher/">
+    <key name="layout-mode" type="s">
+      <default>'wall'</default>
+      <summary>Switcher Layout Mode</summary>
+      <description>Choose between 'wall', 'carousel1', 'carousel2', 'fan', 'toss', 'spinswap', 'zoom', or 'rolodex'.</description>
+    </key>
+    <key name="theme-wall" type="s">
+      <default>'glass'</default>
+      <summary>Theme for Wall Layout</summary>
+    </key>
+    <key name="theme-carousel1" type="s">
+      <default>'neon'</default>
+      <summary>Theme for Carousel 1 (Cylinder Strip) Layout</summary>
+    </key>
+    <key name="theme-carousel2" type="s">
+      <default>'glass'</default>
+      <summary>Theme for Carousel 2 (3D CoverFlow Stage) Layout</summary>
+    </key>
+    <key name="theme-fan" type="s">
+      <default>'classic'</default>
+      <summary>Theme for Poker Hand Fan Layout</summary>
+    </key>
+    <key name="theme-toss" type="s">
+      <default>'neon-red'</default>
+      <summary>Theme for Card Toss Layout</summary>
+    </key>
+    <key name="theme-spinswap" type="s">
+      <default>'neon-lime'</default>
+      <summary>Theme for Spin-Swap Layout</summary>
+    </key>
+    <key name="theme-zoom" type="s">
+      <default>'purple'</default>
+      <summary>Theme for Depth Tunnel Layout</summary>
+    </key>
+    <key name="theme-rolodex" type="s">
+      <default>'forest'</default>
+      <summary>Theme for Rolodex Layout</summary>
+    </key>
+  </schema>
+</schemalist>
 
