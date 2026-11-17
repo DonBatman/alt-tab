@@ -1,0 +1,11 @@
+{
+  "uuid": "alt-tab-switcher@serfdon.com",
+  "name": "3D & Wall Alt-Tab Switcher",
+  "description": "Customizable Alt-Tab window switcher featuring Wall, Carousel, and Card Deck layouts with selectable themes.",
+  "shell-version": [
+    "50",
+    "51"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.alt-tab-switcher",
+  "url": "https://github.com/DonBatman"
+}

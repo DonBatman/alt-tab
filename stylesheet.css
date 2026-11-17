@@ -1,0 +1,155 @@
+/* Base Overlay */
+.ats-overlay {
+    background-color: rgba(10, 12, 16, 0.72);
+}
+
+/* Base Window Card */
+.ats-card {
+    border-radius: 14px;
+    padding: 10px;
+    transition-duration: 150ms;
+}
+
+.ats-title-box {
+    margin-top: 8px;
+    spacing: 8px;
+}
+
+.ats-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* ================= 1. FROSTED GLASS ================= */
+.ats-theme-glass {
+    background-color: rgba(35, 39, 48, 0.75);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+}
+
+.ats-theme-glass.ats-active {
+    background-color: rgba(55, 62, 78, 0.92);
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.65);
+}
+
+/* ================= 2. CLASSIC HIGH-CONTRAST ================= */
+.ats-theme-classic {
+    background-color: #242424;
+    border: 3px solid #4a4a4a;
+    border-radius: 6px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
+.ats-theme-classic.ats-active {
+    background-color: #303030;
+    border: 3px solid #ff9900;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.85);
+}
+
+.ats-theme-classic .ats-title {
+    color: #f5f5f5;
+}
+
+/* ================= 3. NEON CYAN ================= */
+.ats-theme-neon {
+    background-color: rgba(12, 14, 24, 0.88);
+    border: 2px solid rgba(0, 229, 255, 0.28);
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.15);
+}
+
+.ats-theme-neon.ats-active {
+    background-color: rgba(18, 22, 38, 0.98);
+    border: 2px solid #00e5ff;
+    box-shadow: 0 0 28px rgba(0, 229, 255, 0.78);
+}
+
+.ats-theme-neon .ats-title {
+    color: #00e5ff;
+}
+
+/* ================= 4. NEON RED ================= */
+.ats-theme-neon-red {
+    background-color: rgba(24, 8, 8, 0.90);
+    border: 2px solid rgba(255, 26, 0, 0.32);
+    box-shadow: 0 0 15px rgba(255, 26, 0, 0.18);
+}
+
+.ats-theme-neon-red.ats-active {
+    background-color: rgba(40, 10, 10, 0.98);
+    border: 2px solid #ff1a00;
+    box-shadow: 0 0 28px rgba(255, 26, 0, 0.85);
+}
+
+.ats-theme-neon-red .ats-title {
+    color: #ff331a;
+}
+
+/* ================= 5. NEON LIME ================= */
+.ats-theme-neon-lime {
+    background-color: rgba(12, 22, 12, 0.88);
+    border: 2px solid rgba(132, 255, 0, 0.28);
+    box-shadow: 0 0 15px rgba(132, 255, 0, 0.15);
+}
+
+.ats-theme-neon-lime.ats-active {
+    background-color: rgba(18, 34, 18, 0.98);
+    border: 2px solid #84ff00;
+    box-shadow: 0 0 28px rgba(132, 255, 0, 0.75);
+}
+
+.ats-theme-neon-lime .ats-title {
+    color: #9dff33;
+}
+
+/* ================= 6. PINK ROSE ================= */
+.ats-theme-pink {
+    background-color: rgba(42, 20, 34, 0.84);
+    border: 2px solid rgba(255, 115, 185, 0.35);
+    box-shadow: 0 10px 26px rgba(255, 80, 165, 0.18);
+}
+
+.ats-theme-pink.ats-active {
+    background-color: rgba(62, 26, 48, 0.96);
+    border: 2px solid #ff69b4;
+    box-shadow: 0 0 28px rgba(255, 105, 180, 0.72);
+}
+
+.ats-theme-pink .ats-title {
+    color: #ffb3d9;
+}
+
+/* ================= 7. FOREST GREEN ================= */
+.ats-theme-forest {
+    background-color: rgba(18, 34, 24, 0.90);
+    border: 2px solid rgba(64, 145, 92, 0.42);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.55);
+}
+
+.ats-theme-forest.ats-active {
+    background-color: rgba(24, 48, 33, 0.98);
+    border: 2px solid #4caf70;
+    box-shadow: 0 0 24px rgba(76, 175, 112, 0.55);
+}
+
+.ats-theme-forest .ats-title {
+    color: #b7e4c7;
+}
+
+/* ================= 8. ROYAL PURPLE ================= */
+.ats-theme-purple {
+    background-color: rgba(28, 16, 46, 0.88);
+    border: 2px solid rgba(168, 85, 247, 0.35);
+    box-shadow: 0 10px 26px rgba(139, 92, 246, 0.22);
+}
+
+.ats-theme-purple.ats-active {
+    background-color: rgba(42, 22, 68, 0.98);
+    border: 2px solid #b86bff;
+    box-shadow: 0 0 28px rgba(184, 107, 255, 0.75);
+}
+
+.ats-theme-purple .ats-title {
+    color: #e0b3ff;
+}
